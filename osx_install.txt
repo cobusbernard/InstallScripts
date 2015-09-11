@@ -1,0 +1,26 @@
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install caskroom/cask/brew-cask
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install google-chrome
+brew cask install gimp
+brew cask install dropbox
+brew cask install github-desktop
+brew cask install git
+brew cask install sourcetree
+brew cask install calibre
+brew cask install atom
+brew cask install 1password
+brew cask install steam
+brew cask install tunnelblick
+brew cask install skype
+brew cask install parallels-desktop
+brew cask install wget
+brew cask install chefdk
+brew cask install python
+brew cask install xamarin-studio
+brew cask install xamarin-ios
+
+python "$(curl -fsSL https://bootstrap.pypa.io/get-pip.py)"
+sudo CFLAGS=-Qunused-arguments CPPFLAGS=-Qunused-arguments pip install ansible

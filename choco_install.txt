@@ -1,0 +1,3 @@
+Set-ExecutionPolicy Unrestricted -Force
+iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+choco install --yes vlc 7zip virtualbox vagrant notepadplusplus adobereader jre8 putty dropbox google-chrome-x64 nuget.commandline procexp fiddler4 pdfcreator teamviewer calibre winscp 1password poshgit windirstat sourcetree steam openvpn
